@@ -26,7 +26,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: 현재 작업 폴더 목록 출력
-      runs: |
+      run: |
         ls -al
 
     # - name: Build Docker image
